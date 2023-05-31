@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+  font-family: 'Prime';
+  src: url('./Fonts/Prime\ Regular.otf');
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #0654e4d3;
+  background-image: url("./images/Background.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 70rem;
+
+}
+
+.text-color {
+  color: #ECBF0E;
+  font-family: Prime;
+}
+
+.card {
+  background: #1313138c;
+  color: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 700px;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-family: Prime;
+}
+
+.card p {
+  font-size: 16px;
+  font-family: Prime;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profile .avatar {
+  width: 200px;
+  height: 200px;
+}
+
+.card .btn_action {
+  padding: 8px 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #ECBF0E;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: semi-bold;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: flex;
+  align-items: center;
+}
+
+.card .btn_action span {
+  margin-left: 8px;
+}
+
+.card .btn_action:hover {
+  background: #0652E4;
+  color: #FFFAFA;
+}
+
+.rd_12 {
+  border-radius:12px;
+}
+
+.p_8 {
+  padding: 8px;
+}
+
+.footer {
+  margin-top: 20px;
+  color: 	white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer>p {
+  font-size: 10px;
+  font-family: Prime;
+}
+
+.icons {
+  transform: scale(0.8);
+}
+
+.partners {
+  margin-top: 16px;
+}
