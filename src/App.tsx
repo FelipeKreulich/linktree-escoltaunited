@@ -13,6 +13,8 @@ import Presida from './images/Presida.png'
 import DogExpert from './images/DogExpert.png'
 import LavaJato from './images/LavaJato.png'
 
+import 'animate.css'
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +24,7 @@ function App() {
             <img src={LogoEscolta} alt='Escolta United' className='avatar' />
             <div className='bg_content rd_12 p_8'>
               <h1>Conheça mais sobre <span className='text-color'>nosso time</span></h1>
-              <p>United Escolta</p>
+              <p>Escolta United</p>
             </div>
           </div>
           <div className='mt-16'>

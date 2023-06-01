@@ -16,11 +16,11 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: #0654e4d3;
+  background: #063a9c;
   background-image: url("./images/Background.png");
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 70rem;
+  background-size: 60rem;
 
 }
 
@@ -72,6 +72,7 @@ body {
   transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   display: flex;
   align-items: center;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.30);
 }
 
 .card .btn_action span {
@@ -81,6 +82,7 @@ body {
 .card .btn_action:hover {
   background: #0652E4;
   color: #FFFAFA;
+  transform: scale(1.02);
 }
 
 .rd_12 {
@@ -118,6 +120,11 @@ body {
     background-size: 30rem;
   }
   .card {
-    transform: scale(0.6);
+    transform: scale(0.8);
+  }
+  .partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
