@@ -120,7 +120,7 @@ body {
     background-size: 30rem;
   }
   .card {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
   .partners {
     display: flex;
