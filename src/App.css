@@ -120,6 +120,6 @@ body {
     background-size: 30rem;
   }
   .card {
-    transform: scale(0.6);
+    transform: scale(0.5);
   }
 }
